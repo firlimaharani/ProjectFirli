@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="SplashScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bgkata3</item>
+        <item name="android:statusBarColor">@color/soft</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProjectZulaeha." parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple</item>
+        <item name="colorSecondaryVariant">@color/hijaumuda</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/purple</item>
+        <item name="android:navigationBarColor">@color/purple</item>
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.TabExperiment" parent="Base.Theme.ProjectZulaeha." />
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="25dp"
+    tools:context="com.example.projectfirli.ActionFragment">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="The Uncanny Counter"/>
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:maxLines="7"
+        android:textColor="@color/black"
+        android:text="Bercerita tentang sekelompok orang yang melabeli diri mereka sebagai Counter. Mereka mempunyai misi untuk memburu semua roh jahat, terutama roh-roh yang berkeliaran di bumi ini."/>
+
+    <Button
+        android:id="@+id/theuncannycounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Deskription"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:onClick="playtheuncannycounterTrailer"
+        android:text="Watch Trailer Now" />
+
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/filmaction1" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:text="BLIND"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="212dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:maxLines="6"
+        android:text="Blind berkisah tentang Ryu Sung Joon (TaecYeon), Ryu Sung Hoon (Ha Seok Jin) dan Jo Eun Ki (Jung Eun Ji) yang terlibat kasus pembunuhan berantai."
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/filmaction2" />
+
+    <Button
+        android:id="@+id/blind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie2"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:onClick="playblindTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/filmaction3"/>
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:text="The Glory"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="403dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:maxLines="5"
+        android:text="Seorang mantan korban kekerasan di sekolah berencana dan berusaha membalas dendam pada para pelaku intimidasi."
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/theglory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Deskription3"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/imgMovie3"
+        android:onClick="playTheGloryTrailer"
+        android:text="Watch Trailer Now" />
+</RelativeLayout>
