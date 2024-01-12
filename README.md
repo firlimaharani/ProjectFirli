@@ -14,4 +14,6 @@ Dosen pengampu : Donny Maulana, S.kom, M.kom, M.M.S.I.
 
 ## run
 
+https://github.com/firlimaharani/ProjectFirli/assets/130529482/f7175390-a4e3-4c71-b844-a7dc836c8b1e
+
 
